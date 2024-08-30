@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height and Width</title>
+    <style>
+        /* Styling for bg element */
+        #bg {
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            border: 4px solid greenyellow; /* Using shorthand for border */
+            border-radius: 30px; /* Rounded corners */
+            padding: 10px; /* Added padding for content spacing */
+            color: white; /* Ensure text is visible on red background */
+            text-align: center; /* Center text alignment */
+            line-height: 100px; /* Center text vertically */
+        }
+
+        /* Styling for second element */
+        #second {
+            background-color: greenyellow;
+            height: 100px;
+            width: 455px;
+            border-top: 2px solid rgb(36, 223, 145);
+            border-right: 2px solid violet;
+            border-left: 2px solid rgb(26, 12, 223);
+            border-bottom: 2px solid rgb(167, 167, 167);
+            padding: 10px; /* Added padding for content spacing */
+            color: black; /* Ensure text is visible on greenyellow background */
+            text-align: center; /* Center text alignment */
+            line-height: 100px; /* Center text vertically */
+        }
+
+        /* Styling for images element */
+        #images {
+            height: 700px;
+            width: 455px;
+            background-image: url('./img/image.avif');
+            border: 2px solid red;
+            background-repeat: no-repeat; /* No repeat of the image */
+            background-position: center center; /* Center the image */
+            background-size: cover; /* Cover the entire area */
+            color: white; /* Ensure text is visible on image background */
+            text-align: center; /* Center text alignment */
+            line-height: 700px; /* Center text vertically */
+        }
+    </style>
+</head>
+<body>
+    <h3>Height</h3>
+    <p id="bg">This is the paragraph</p>
+
+    <h3>Second Height</h3>
+    <p id="second">This is the paragraph</p>
+
+    <h3>Images</h3>
+    <p id="images">This is the paragraph</p>
+</body>
+</html>

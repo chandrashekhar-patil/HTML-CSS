@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>alignment</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Teko", sans-serif;
+      }
+
+      .container {
+        width: 900px;
+        border: 3px solid rgb(224, 14, 14);
+        margin: auto;
+      }
+      .items {
+        border: 3px solid black;
+        margin: 12px 3px;
+        padding: 12px 4px;
+        background-color: rgb(224, 184, 184);
+      }
+      #fruits {
+        float: left;
+        width: 48%;
+      }
+      #computer {
+        float: left;
+        width: 48%;
+      }
+      #stationary {
+        float: both;
+        clear: left;
+        width: 100%;
+      }
+      p,
+      h3 {
+        /* text-align: right;
+            text-align: left;
+            text-align: center; */
+        text-align: justify;
+      }
+      h1 {
+        margin: auto;
+        width: 455px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>welcome to my store</h1>
+      <div id="fruits" class="items">
+        <h3>Fruits</h3>
+        <p id="fruitspara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+          nesciunt rerum earum modi hic quis alias repellat enim libero quos,
+          aliquid aspernatur explicabo ex, magni nobis rem, velit ipsa dolor.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          harum odit doloribus voluptatum delectus fuga animi necessitatibus
+          repudiandae ut perferendis quam enim deserunt velit, pariatur quae sit
+          laudantium eveniet ex!
+        </p>
+      </div>
+
+      <div id="computer" class="items">
+        <h3>computer</h3>
+        <p id="fruitspara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+          nesciunt rerum earum modi hic quis alias repellat enim libero quos,
+          aliquid aspernatur explicabo ex, magni nobis rem, velit ipsa dolor.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto,
+          velit beatae! Sequi incidunt eaque minima, nemo quibusdam fugiat esse,
+          itaque quia nesciunt similique optio ipsa deleniti saepe. Vero,
+          voluptas ratione.
+        </p>
+      </div>
+
+      <div id="stationary" class="items">
+        <h3>stationary</h3>
+        <p id="fruitspara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+          nesciunt rerum earum modi hic quis alias repellat enim libero quos,
+          aliquid aspernatur explicabo ex, magni nobis rem, velit ipsa dolor.
+        </p>
+      </div>
+
+      <div id="stationary" class="items">
+        <h3>stationary</h3>
+        <p id="glasspara" class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+          nesciunt rerum earum modi hic quis alias repellat enim libero quos,
+          aliquid aspernatur explicabo ex, magni nobis rem, velit ipsa dolor.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
